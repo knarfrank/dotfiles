@@ -1,8 +1,6 @@
-source ~/.dotfiles/git/*.zsh
-
+source ~/.dotfiles/*/*.zsh
 
 # General Aliases
-alias gcc='gcc -Wall'
 alias gi='git'
 alias startmysql="sudo /usr/local/mysql/support-files/mysql.server start"
 
