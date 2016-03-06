@@ -2,8 +2,6 @@ source ~/.dotfiles/*/*.zsh
 
 # General Aliases
 alias gi='git'
-alias startmysql="sudo /usr/local/mysql/support-files/mysql.server start"
-
 
 export PATH=$PATH:"/Users/frank/bin"
 export GOPATH="/Users/frank/code/goworkspace"
