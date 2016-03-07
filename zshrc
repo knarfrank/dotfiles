@@ -5,7 +5,7 @@ for filename in $(/bin/ls ~/.dotfiles/**/*.zsh); do
 done
 
 
-
+export PATH=$PATH:"/Users/frank/.vimpkg/bin"
 export PATH=$PATH:"/Users/frank/bin"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
