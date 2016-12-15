@@ -19,5 +19,6 @@ ln -s ~/.dotfiles/zshrc ~/.zshrc
 ln -s ~/.dotfiles/git/git.config ~/.gitconfig
 ln -s ~/.dotfiles/vim/vim.config ~/.vimrc
 
-
+# Make zsh the default shell
+chsh -s /bin/zsh
 
