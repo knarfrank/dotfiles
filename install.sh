@@ -1,7 +1,19 @@
 
-mv ~/.zshrc ~/.zshrc.backup
-mv ~/.gitconfig ~/.gitconfig.backup
-mv ~/.vimrc ~/.vimrc.backup
+if [ -f ~/.zshrc ];
+then
+	mv ~/.zshrc ~/.zshrc.backup
+fi
+
+if [ -f ~/.gitconfig ];
+then
+	mv ~/.gitconfig ~/.gitconfig.backup
+fi
+
+if [ -f ~/.vimrc ];
+then
+	mv ~/.vimrc ~/.vimrc.backup
+fi
+
 
 ln -s ~/.dotfiles/zshrc ~/.zshrc
 ln -s ~/.dotfiles/git/git.config ~/.gitconfig
