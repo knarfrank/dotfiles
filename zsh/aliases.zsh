@@ -11,3 +11,9 @@ alias updatedate="sudo ntpdate -s time.nist.gov"
 # Related to dotfiles and zshrc
 alias gosource="source ~/.zshrc"
 alias dots="cd ~/.dotfiles/"
+
+
+
+search() {
+    grep -r $1 *
+}
