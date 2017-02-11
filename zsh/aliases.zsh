@@ -6,7 +6,7 @@ alias lshome="ls ~/"
 alias grep="grep --color"
 alias grepr="grep -r"
 
-
+alias updatedate="sudo ntpdate -s time.nist.gov"
 
 # Related to dotfiles and zshrc
 alias gosource="source ~/.zshrc"
