@@ -14,6 +14,10 @@ alias dots="cd ~/.dotfiles/"
 
 alias showbig="sudo du -a /home | sort -n -r | head -n 10" 
 
+# Always show human readable sizes
+alias df="df -h"
+
+
 search() {
     grep -r $1 *
 }
