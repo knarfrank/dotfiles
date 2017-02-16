@@ -12,7 +12,7 @@ alias updatedate="sudo ntpdate -s time.nist.gov"
 alias gosource="source ~/.zshrc"
 alias dots="cd ~/.dotfiles/"
 
-
+alias showbig="sudo du -a /home | sort -n -r | head -n 10" 
 
 search() {
     grep -r $1 *
