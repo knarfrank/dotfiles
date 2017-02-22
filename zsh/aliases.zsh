@@ -16,7 +16,8 @@ alias showbig="sudo du -a /home | sort -n -r | head -n 10"
 
 # Always show human readable sizes
 alias df="df -h"
-
+alias du="du -h"
+alias dus="du -h | sort -h"
 
 search() {
     grep -r $1 *
