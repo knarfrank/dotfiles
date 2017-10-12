@@ -19,6 +19,10 @@ alias df="df -h"
 alias du="du -h"
 alias dus="du -h | sort -h"
 
+# Preserve enviroment when using sudo
+alias sudo="sudo -E"
+
+
 search() {
     grep -r $1 *
 }
