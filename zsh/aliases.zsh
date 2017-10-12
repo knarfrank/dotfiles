@@ -3,6 +3,10 @@ alias l="/bin/ls"
 alias ls="ls --color=always -oaGFh"
 alias lshome="ls ~/"
 
+# Change colour of directory for ls command
+LS_COLORS=$LS_COLORS:'di=0;36:'
+export LS_COLORS
+
 alias grep="grep --color"
 alias grepr="grep -r"
 
